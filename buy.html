@@ -1,0 +1,85 @@
+<html>
+<head>
+<title>Buy Now </title>
+<style>
+body{
+            background-image: url('credit5.gif'); 
+            background-size: cover;
+            background-position: center;
+            opacity:100%;
+}
+.buying {
+max-width: 600px;
+margin: 20px auto;
+padding: 20px;
+border-radius: 5px;
+box-shadow:0 0 10px rgba(0, 0, 0, 0.9); 
+}
+
+form {
+display: grid;
+gap: 15px;
+}
+
+label {
+font-size: 16px;
+margin-bottom: 5px;
+display:block;
+}
+
+input {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #ccc; 
+border-radius: 5px;
+box-sizing: border-box;
+}
+
+.buy-button {
+display: inline-block;
+padding: 10px 20px;
+background-color: #3298db;
+color: #fff;
+
+border-radius: 5px;
+font-size:18px;
+cursor:pointer;
+}
+
+.buy-button:hover {
+background-color: #2980b9;
+}
+
+a{
+text-decoration:none;
+color:#fff;
+}
+
+</style>
+</head>
+<body>
+<div class="buying">
+<form action="#">
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" >
+
+<label for="email">Email:</label>
+<input type="email" id="email" name="email">
+
+<label for="card">Credit Card Number:</label>
+<input type="text" id="card" name="card">
+
+<label for="expiry"> Expiry Date: </label>
+<input type="text" id="expiry" name="expiry" placeholder="MM/YY">
+
+<label for="cvv">CVV: </label>
+<input type="text" id="cvv" name="cvv">
+
+<button type="submit" class="buy-button"><a href="thanks.html">Buy Now</button>
+</form></a>
+</div>
+</body>
+<html>
+
+
